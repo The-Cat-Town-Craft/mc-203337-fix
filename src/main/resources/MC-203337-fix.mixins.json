@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.catowncreaft.mc203337.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "net.minecraft.world.poi.PointOfInterestSetMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
