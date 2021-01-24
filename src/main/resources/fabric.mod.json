@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-203337-fix",
+  "version": "${version}",
+  "name": "MC-203337-fix",
+  "description": "MC-203337-fix",
+  "authors": [
+    {
+      "name": "Hendrix_Shen",
+      "contact": {
+        "homepage": "https://github.com/Hendrix-Shen"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/The-Cat-The-Craft",
+    "issues": "https://github.com/The-Cat-Town-Craft/Carpet-TCTC-Addition/issues",
+    "sources": "https://github.com/The-Cat-The-Craft/Carpet-TCTC-Addition"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "MC-203337-fix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.15 <=1.16.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
